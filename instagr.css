@@ -23,20 +23,106 @@
 			}
 			.div{
 				height:1800px;
-				border:0px solid black;
+				border:1px solid black;
 				margin:0px 0px 0px 200px;
 				display:grid;
-				grid-template-rows:480px;
+				grid-template-rows:120px 550px;
+				row-gap:25px;
+			}
+			
+			.story_div{
+				height:120px;
+				border:0px solid black;
+				display:grid;
+				overflow-x:scroll;
+				scrollbar-width:none;
+				grid-template-columns:105px 105px 105px 105px 105px 105px;
+			}
+			.user_story{
+				height:85px;
+				outline:3px solid #e1306c;
+				border:0px solid black;
+				border-radius:100px;
+				margin:10px;
+				outline-offset:5px;
+				
+			}
+			.user_img{
+				height:100%;
+				width:100%;
+				border-radius:100px;
+				
+			}
+			.user_name{
+				margin:3px;
+				font-size:15px;
+				font-family:arial, sans-sarif;
 			}
 			.post_div{
 				width:100%;
-				border:1px solid black;
-				margin:5px 0px 0px 0px ;
+				border:0px solid black;
+				margin:0px 0px 0px 0px;
+				display:grid;
+				grid-template-rows:69px 530px 50px  50px;
+				
+			}
+			.post_part1{
+				width:90%;
+				border:0px solid black;
+				margin-left:30px;
+				display:grid;
+				grid-template-columns:55px 420px 60px
+				
+			}
+			.user_post_logo{
+				height:33px;
+				border:0px solid black;
+				margin:20px 0px 0px 20px;
+				border-radius:100px;
 			}
 			
+			.user_post_name{
+				height:50px;
+				border:0px solid black;
+				margin:10px 0px 0px 20px;
+				font-family:arial, sans-sarif;
+				font-size:15px;
+				
+			}
+			.icon_color{
+				color:#0D6AB7;
+				
+			}
+			.dots{
+				height:25px;
+				border:0px solid black;
+				margin:25px 0px 0px 20px;
+				font-size:20px;
+				
+			}
+			.post_content{
+				width:85%;
+				border:0px solid black;
+				border-radius:10px;
+				margin:6px 0px 0px 50px;
+			}
+			.post_image{
+				height:100%;
+				width:100%;
+				border-radius:10px;
+				
+			}
+			
+			
+			.post_parts{
+				width:90%;
+				border:1px solid black;
+				margin-left:30px;
+			}
 			
 			.di1{
 				height:450px;
 				border:1px solid black;
 				margin:90px 0px 0px 120px; 
 			}
+			
