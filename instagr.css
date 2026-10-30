@@ -1,0 +1,42 @@
+
+			body{
+				margin:0px;
+				display:grid;
+				grid-template-columns:80px 60% 460px;
+			}
+			aside{
+				height:630px;
+				border:0px solid black;
+				margin:0px;
+				
+				position:sticky;
+				top:0;
+			}
+			.option_icon{
+				height:30px;
+				width:39px;
+				border:0px solid black;
+				margin:28px 0px 0px 18px;
+				font-size:30px;
+				text-align:center;
+				color:#272727;
+			}
+			.div{
+				height:1800px;
+				border:0px solid black;
+				margin:0px 0px 0px 200px;
+				display:grid;
+				grid-template-rows:480px;
+			}
+			.post_div{
+				width:100%;
+				border:1px solid black;
+				margin:5px 0px 0px 0px ;
+			}
+			
+			
+			.di1{
+				height:450px;
+				border:1px solid black;
+				margin:90px 0px 0px 120px; 
+			}
