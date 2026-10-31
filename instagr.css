@@ -2,7 +2,7 @@
 			body{
 				margin:0px;
 				display:grid;
-				grid-template-columns:80px 60% 460px;
+				grid-template-columns:80px 60% 450px;
 			}
 			aside{
 				height:630px;
@@ -22,12 +22,12 @@
 				color:#272727;
 			}
 			.div{
-				height:1800px;
-				border:1px solid black;
+				height:2800px;
+				border:0px solid black;
 				margin:0px 0px 0px 200px;
 				display:grid;
-				grid-template-rows:120px 550px;
-				row-gap:25px;
+				grid-template-rows:120px 770px 770px 770px;
+				row-gap:0px;
 			}
 			
 			.story_div{
@@ -63,7 +63,7 @@
 				border:0px solid black;
 				margin:0px 0px 0px 0px;
 				display:grid;
-				grid-template-rows:69px 530px 50px  50px;
+				grid-template-rows:69px 550px 50px  100px;
 				
 			}
 			.post_part1{
@@ -105,6 +105,7 @@
 				border:0px solid black;
 				border-radius:5px;
 				margin:6px 0px 0px 50px;
+				
 			}
 			.post_image{
 				height:100%;
@@ -132,15 +133,109 @@
 				margin:-2px 0px 0px 3px ;
 				display:inline-block;
 			}
-			.post_parts{
+			.post_caption{
 				width:90%;
-				border:1px solid black;
-				margin-left:30px;
+				border:0px solid black;
+				margin:0px 0px 0px 30px;
+				display:grid;
+				grid-template-rows:41px 50px;
 			}
-			
+			.like_person{
+				width:95%;
+				border:0px solid black;
+				margin:3px 0px 0px 15px;
+				display:grid;
+				grid-template-columns:69px 399px;
+			}
+			.like_person_img{
+				height:35px;
+				border:0px solid black;
+				border-radius:100px;
+				margin:3px 0px 0px 35px;
+			}
+			.like_followed{
+				height:30px;
+				border:0px solid black;
+				margin:3px 0px 0px 10px;
+				
+			}
+			.Follo{
+				font-family:arial, sans-sarif;
+				font-size:16px;
+				margin:8px 0px 0px 0px ;
+				
+			}
+			.post_information{
+				width:95%;
+				border:0px solid black;
+				margin:2px 0px 0px 20px;
+			}
+			.post_caption_con{
+				font-size:16px;
+				font-family:arial, sans-sarif;
+				margin:2px 0px 0px 30px;
+				
+			}
+			.overflow{
+				width:85%;
+				border:0px solid black;
+				border-radius:5px;
+				margin:6px 0px 0px 50px;
+				display:grid;
+				grid-template-columns:100% 100% 100%;
+				overflow-x:scroll;
+				scrollbar-width:none;
+				
+			}
+			.other{
+				height:490px;
+				margin-left:10px;
+				scroll-behavior:smooth;
+				scroll-snap-type:both mandatory;
+			}
+			.do{
+				text-align:center;
+				color:blue;
+				margin:0px;
+			}
+			.background{
+				background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MA_qOiJSnKHag6-w5Mu7D-VYAuM2byDGLs_9uK5YGF2RAMjy4BppGSo&s=10');
+				background-size:100% 100%;
+			}
+			.rohit{
+				background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4yhnb3_NUCOSsMDmBE42_ZeDkk8clfVUbb4gSCShTFiQMvbBA7NipajY&s=10');
+				background-size:100% 100%;
+			}
+			.user{
+				height:32px;
+				width:35px;
+				border:1px solid black;
+				border-radius:100px;
+				background-color:black;
+				color:grey;
+				padding-top:3px;
+				position:relative;
+				top:89%;
+				left:20px;
+				font-size:26px;
+				text-align:center;
+			}
 			.di1{
-				height:450px;
-				border:1px solid black;
-				margin:90px 0px 0px 120px; 
+				height:630px;
+				border:0px solid black;
+				margin:0px 0px 0px 20px;
+				position:sticky;
+				top:0px;	
 			}
-			
+			.meassage{
+				height:50px;
+				width:250px;
+				border:1px solid black;
+				background:white;
+				border-radius:30px;
+				position:relative;
+				top:86%;
+				left:150px;
+				display:grid;
+				grid-template-columns:auto auto auto;
+			}
