@@ -103,7 +103,7 @@
 			.post_content{
 				width:85%;
 				border:0px solid black;
-				border-radius:10px;
+				border-radius:5px;
 				margin:6px 0px 0px 50px;
 			}
 			.post_image{
@@ -113,7 +113,25 @@
 				
 			}
 			
-			
+			.post_reaction{
+				width:83%;
+				border:0px solid black;
+				margin:5px 0px 0px 55px;
+			}
+			.reaction{
+				font-size:28px;
+				margin:8px 0px 0px 18px;
+				display:inline-block;
+			}
+			.align{
+				margin-left:35%;
+			}
+			.number{
+				font-size:20px;
+				font-family:arial, sans-sarif;
+				margin:-2px 0px 0px 3px ;
+				display:inline-block;
+			}
 			.post_parts{
 				width:90%;
 				border:1px solid black;
