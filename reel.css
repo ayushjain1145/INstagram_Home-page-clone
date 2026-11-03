@@ -1,0 +1,84 @@
+	
+	body{
+		background-color:black;
+		margin:0px;
+		color:white;
+		display:flex;
+		scroll-snap-type:y mandatory;
+		scroll-behavior:smooth;
+		scroll-snap-align:center;
+	}
+	.im_side{
+		height:630px;
+		width:90px;
+		border:1px solid red;
+		margin:0px;
+		position:fixed;
+	}
+	.rel_per{
+		height:630px;
+		width:52%;
+		border:1px solid red;
+		margin:0px 0px 0px 16%;
+		display:grid;
+		grid-template-rows:610px ;
+		overflow-y:scroll;
+		Scrollbar-width:none;
+	}
+	.mas{
+		height:610px;
+		width:28%;
+		border:1px solid red;
+		margin:10px 0px 0px 51px;
+		position:sticky;
+		top:10px;
+	}
+	.reel_con{
+		width:100%;
+		border:0px solid orange;
+		display:grid;
+		grid-template-columns:300px 350px 60px;
+	}
+	.reel_mess{
+		height:620px;
+		border:1px solid grey;
+		
+	}
+	.reel_mess_per{
+		height:220px;
+		border:0px solid grey;
+		margin:399px 0px 0px 10px;
+		display:grid;
+		grid-template-columns:68px 215px;
+	}
+	.im_ro{
+		height:35px;
+		border:1px solid pink;
+		border-radius:100px;
+		margin:69px 0px 0px 30px;
+	}
+	.im{
+		height:50px;
+		border:0px solid pink;
+		margin:62px 0px 0px 10px;
+	}
+	.reel_owwner_name{
+		font-family:arial, sans-sarif;
+		font-size:16px;
+	}
+	.follow{
+		color:skyblue;
+		
+	}
+	.in{
+		font-size:16px;
+		margin:0px;
+		
+	}
+	.masage{
+		height:80px;
+		width:250px;
+		border:0px solid blue;
+		margin:10px 0px 0px 20px;
+		
+	}
